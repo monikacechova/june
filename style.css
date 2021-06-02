@@ -1,0 +1,707 @@
+a{
+  color: black;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+:root{
+  --logo-con-size: 220px;
+  --menu-height: calc(10px * 2);
+  --menu-space: calc(16px);
+}
+header{
+  display: flex;
+  width: 100%;
+  background: white
+}
+#logo{
+  width: var(--logo-con-size);
+  height: var(--logo-con-size);
+  background: white
+  display: inline-block;
+}
+ul{
+  display: flex;
+  justify-content: flex-end;
+  width: calc(100% - var(--logo-con-size));
+  border-bottom: solid 1px black;
+  height: var(--menu-height);
+  list-style: none;
+  padding-bottom: 5px;
+}
+ul li{
+  height: var(--menu-height);
+  font-size: var(--menu-height);
+  margin-left: var(--menu-space);
+}
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 3em;
+    text-align: center;
+    background-color: white;
+
+}
+ .container {
+                font-family: 'Josefin Sans', sans-serif;
+                color: black
+                font-size: 3em;
+                height: 50%;
+                width: 95%;
+                display: flex;
+                position: fixed;
+                align-items: center;
+                justify-content: center;
+        
+}
+.container2 {
+                font-family: 'Josefin Sans', sans-serif;
+                color: black
+                font-size: 1.5em;
+                height: 80%;
+                width: 95%;
+                display: flex;
+                position: fixed;
+                align-items: center;
+                justify-content: center;
+        
+}
+
+}
+img {
+    width: 20em;
+    height: auto;
+}
+
+img.profile {
+    width: 60%;
+    max-width: 600px
+
+}
+img.profile15 {
+    width: 100%;
+    max-width: 350px
+Fmar
+}
+
+.large {
+    width: 100%;
+}
+
+.medium {
+    width: 100%;
+}
+
+.small {
+    width: 100%;
+}
+
+p :not(.not) {
+    margin: 0.5em;
+    padding: 0.5em;
+    text-align: left;
+    color: black;
+}
+
+p.not {
+    text-align: left;
+    color: black;
+    display: block;
+    padding-bottom: 2em;
+    margin-bottom: auto;
+    margin-right: 3em;
+    margin-left: 3em;
+
+
+}
+
+h1.ex1 {
+    color: black;
+    font-size: 3em;
+}
+
+h2 {
+    color: black;
+}
+
+h4 {
+    color: black;
+}
+
+a {
+    margin: 1em;
+}
+
+article.ex1 {
+    color: black
+    line-height: 1.5em;
+    box-sizing: border-box;
+    background-color: black
+    border-color: black
+    text-align: center;
+}
+
+article.ex2 {
+    color: black;
+    line-height: 1.5em;
+    text-align: center;
+}
+
+.white {
+    background-color: black;
+    color: #25231C;
+    text-align: center;
+}
+
+h3 {
+    color: black;
+    margin: 1em;
+    margin-left: 2.7em;
+    padding-right: 2em;
+    padding-left: 2em;
+    padding: 0.2em;
+    text-align: left;
+
+}
+
+h3.img {
+    color: black
+}
+
+h3.typeface {
+    color: black;
+    display: block;
+    margin-bottom: auto;
+}
+
+h3.profile
+{
+    color: black
+    display: block;
+    margin-bottom: auto;  
+}
+figure {
+    text-align: center;
+}
+
+figure.large {
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+figure.medium {
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+figure.small {
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+}
+footer {
+    text-align: center;
+    font-size: 80%;
+    position:relative;
+    bottom: 10%;
+    width: 100%;
+    background:url(bcg.png);
+    padding: 0.2%;
+
+}
+.footerP{
+align-content: center;
+
+}
+
+img.ex2 {
+    display: none;
+}
+
+img.ex1 {
+    width: 60%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img.ex3 {
+    width: 70%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+figure.img {
+    color: black;
+}
+
+h1.ex2 {
+    display: none;
+}
+
+nav {
+    color: #25231C;
+    display: none;
+    margin: 1em
+}
+
+#menu:checked ~ nav {
+    box-sizing: border-box;
+    outline: 0.2em solid #F3EFE7;
+    display: grid;
+}
+
+label[for=menu] {
+    color: #F3EFE7;
+}
+
+a:link {
+    color: black;
+    text-decoration: none;
+
+}
+
+a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
+    text-decoration: none;
+    transition: color 1s;
+}
+
+a:active {
+    color: black;
+    text-decoration: none;
+}
+
+a.selected:link {
+    color: black;
+    text-decoration: none;
+
+}
+
+a.selected:hover {
+    color: black;
+    text-decoration: none;
+
+}
+
+a.selected:visited {
+    color: black;
+    text-decoration: none;
+
+}
+
+a.selected:active {
+    color: black;
+    text-decoration: none;
+
+}
+
+input#menu {
+    display: none;
+}
+
+section.moodboard {
+    box-sizing: border-box;
+    outline: 0.2em solid #F3EFE7;
+    margin: 1em;
+}
+
+section.scheme {
+    margin: 1em;
+}
+
+section.typeface {
+    box-sizing: border-box;
+    outline: 0.2em solid black;
+    margin: 1em;
+}
+
+section.assets {
+    margin: 1em;
+}
+
+section.structure {
+    box-sizing: border-box;
+    outline: 0.2em solid black;
+    margin: 1em;
+}
+
+section.logo {
+    margin: 1em;
+}
+
+section.profile {
+    margin: 1em;
+}
+section.profile1 {
+    margin: 1em;
+}
+article {
+    margin: 1em;
+}
+
+@media all and (min-width:900px) {
+    body {
+        font-family: 'Josefin Sans', sans-serif;
+        box-sizing: border-box;
+    }
+    article {
+      margin: 0.5em;
+    }
+    figure {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: auto;
+        margin-top: auto;
+    }
+
+    nav {
+        color: #25231C;
+        display: inline-block;
+        line-height: 2em;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    input:not(:checked) ~ nav {
+        display: block;
+        box-sizing: border-box;
+        outline: 0.2em solid black;
+    }
+
+    input:checked ~ nav {
+        display: block;
+        box-sizing: border-box;
+        outline: 0.2em solid black;
+    }
+
+    header label {
+        display: none;
+    }
+
+    section.ex1 {
+        display: none;
+
+    }
+
+    section {
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+    section1 {
+        margin-top: auto;
+        margin-bottom: auto;
+    
+    }
+    section2 {
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+    section3 {
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+    h1.ex2 {
+        display: block;
+        margin-right: auto;
+        font-size: 5em;
+        color: black;
+    }
+
+    img {
+        width: 10em;
+        height: auto;
+    }
+
+    img.ex2 {
+        display: block;
+        margin-left: auto;
+        width: 20em;
+        height: auto;
+    }
+
+    img.ex3 {
+        width: 100%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: auto;
+        margin-top: auto;
+
+    }
+
+    img.ex4 {
+        width: 70%;
+        height: auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: auto;
+        margin-top: auto;
+
+    }
+
+    main {
+        text-align: center;
+    }
+
+    h2 {
+        font-size: 5em;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    h3.img {
+        color: black;
+        font-size: 4em;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    h3.typeface {
+        color: black;
+        font-size: 4em;
+
+
+    }
+
+    h3.profile {
+        color: black;
+        font-size: 1.2em;
+
+
+    }
+h4.img {
+        color: black;
+        font-size: 1.5em;
+
+
+    }
+    div#wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas:
+            "header-area header-area"
+            "main-area main-area"
+            "logo-area h1-area"
+    }
+
+
+    h1.ex2 {
+        grid-area: h1-area;
+    }
+
+    header {
+        grid-area: header-area;
+    }
+
+    img.ex2 {
+        grid-area: logo-area;
+    }
+
+    main {
+        grid-area: main-area;
+    }
+
+    aside {
+        grid-area: aside-area;
+    }
+
+
+    article.ex3 {
+        grid-area: article3-area;
+    }
+
+    article.ex5 {
+        grid-area: article5-area;
+    }
+
+    article.ex6 {
+        grid-area: article6-area;
+    }
+
+    article.ex4 {
+        grid-area: article4-area;
+    }
+
+    section.white {
+        grid-area: white-area;
+    }
+
+    section.ex2 {
+        grid-area: section-area;
+    }
+
+    h3 {
+        grid-area: h3-area;
+    }
+
+    figure.img {
+        grid-area: figureimg-area;
+    }
+
+    p {
+        grid-area: p-area;
+    }
+
+    section.moodboard {
+        grid-area: sectionmoodboard-area;
+    }
+
+    section.scheme {
+        grid-area: sectionscheme-area;
+    }
+
+    section.typeface {
+        grid-area: sectiontypeface-area;
+    }
+
+    section.assets {
+        grid-area: sectionassets-area;
+    }
+
+    section.structure {
+        grid-area: sectionstructure-area;
+    }
+
+    section.logo {
+        grid-area: sectionlogo-area;
+    }
+
+    figure.large {
+        grid-area: figurelarge-area;
+    }
+
+    figure.medium {
+        grid-area: figuremedium-area;
+    }
+
+    figure.small {
+        grid-area: figuresmall-area;
+    }
+
+    section.profile {
+        grid-area: sectionprofile-area;
+    }
+section.profile1 {
+        grid-area: sectionprofile1-area;
+    }
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas:
+            "h1-area section-area"
+            "white-area white-area"
+            "sectionmoodboard-area sectionmoodboard-area"
+            "sectionscheme-area sectionscheme-area"
+            "sectiontypeface-area sectiontypeface-area"
+            "sectionassets-area sectionassets-area"
+            "sectionstructure-area sectionstructure-area"
+            "sectionlogo-area sectionlogo-area"
+            "sectionprofile-area sectionprofile-area"
+            "sectionprofile1-area sectionprofile1-area"
+    }
+
+    section.moodboard {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: "figureimg-area h3-area"
+
+    }
+
+    section.typeface {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas:
+            "figureimg-area h3-area"
+            "figureimg-area p-area"
+
+    }
+
+    section.scheme {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: "h3-area figureimg-area"
+
+    }
+
+    section.white {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas:
+            "h3-area ."
+            "article3-area article4-area"
+
+    }
+
+    section.assets {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas:
+            "h3-area figurelarge-area"
+            "figuremedium-area figuresmall-area"
+
+
+    }
+
+    section.structure {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: "h3-area figureimg-area"
+
+    }
+
+    section.logo {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas:
+            "figureimg-area h3-area"
+            "figureimg-area p-area"
+
+    }
+
+    section.profile {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas:
+            "figureimg-area h3-area"
+            "figureimg-area article5-area"
+            "figureimg-area article6-area"
+    }
+      section.profile1 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas:
+            "figureimg-area h3-area"
+            "figureimg-area article5-area"
+            "figureimg-area article6-area"
+    
+    }
+    #video{
+        align-content: center
+    }
+    {
+  box-sizing: border-box;
+}
+
+
+.column {
+  float: right;
+  width: 5o.33%;
+    margin: 10px;
+}
+
+
+}
